@@ -45,3 +45,6 @@ document.getElementById('btn-case-minus').addEventListener('click', function () 
     updateFinalTotal(finalTotal);
 
 });
+document.getElementById('cencell-btn-case').addEventListener('click', () => {
+    alert("Are you sure to cencell this item?");
+})

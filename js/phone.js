@@ -44,3 +44,9 @@ document.getElementById('btn-phone-minus').addEventListener('click', function ()
     const finalTotal = subTotal + tax;
     updateFinalTotal(finalTotal);
 });
+
+document.getElementById('cencell-btn-phone').addEventListener('click', () => {
+    alert("Are you sure to cencell this item?");
+    const phoneDiv = document.getElementById('phone');
+    phoneDiv.classList.add('d-none');
+})
